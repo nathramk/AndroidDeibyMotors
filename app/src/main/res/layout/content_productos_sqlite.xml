@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.home.example.notepatt.ProductosSQlite"
+    tools:showIn="@layout/activity_productos_sqlite">
+
+    <EditText
+        android:id="@+id/edtCodProducto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/Cod_product" />
+
+    <EditText
+        android:id="@+id/edtNameProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/edtCodProducto"
+        android:layout_alignRight="@+id/edtCodProducto"
+        android:layout_below="@+id/edtCodProducto"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/Name_prodcut" />
+
+    <EditText
+        android:id="@+id/edtMarcaProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edtNameProduct"
+        android:layout_alignStart="@+id/edtNameProduct"
+        android:layout_below="@+id/edtNameProduct"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/Marca_producto" />
+
+    <EditText
+        android:id="@+id/edtCateforia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/edtMarcaProduct"
+        android:layout_alignRight="@+id/edtMarcaProduct"
+        android:layout_below="@+id/edtMarcaProduct"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/Categoria_prodcuto" />
+
+    <EditText
+        android:id="@+id/edtCantidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/edtCateforia"
+        android:layout_alignRight="@+id/edtCateforia"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/Cantidad_producto" />
+
+    <EditText
+        android:id="@+id/edtPriceUnit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edtCantidad"
+        android:layout_alignStart="@+id/edtCantidad"
+        android:layout_below="@+id/edtCantidad"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/Pecio_Unit" />
+
+    <ImageView
+        android:id="@+id/imageProductLogo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/edtPriceUnit"
+        android:layout_alignStart="@+id/edtPriceUnit"
+        android:layout_below="@+id/edtPriceUnit"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="25dp"
+        app:srcCompat="@drawable/common_google_signin_btn_icon_dark"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/edtPriceUnit"
+        android:layout_alignEnd="@+id/edtPriceUnit" />
+
+    <Button
+        android:id="@+id/btnChoiceImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnImage"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="46dp" />
+
+    <Button
+        android:id="@+id/btnIrToList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageProductLogo"
+        android:text="@string/btnListar"
+        android:layout_alignRight="@+id/btnChoiceImage"
+        android:layout_alignEnd="@+id/btnChoiceImage" />
+
+    <Button
+        android:id="@+id/btnAgregar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edtCantidad"
+        android:layout_alignEnd="@+id/btnIrToList"
+        android:layout_alignRight="@+id/btnIrToList"
+        android:text="@string/btnAgregar" />
+
+
+</RelativeLayout>

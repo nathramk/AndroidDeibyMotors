@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pedido"
+            android:icon="@drawable/ic_pedido"
+            android:title="@string/pedido" />
+        <item
+            android:id="@+id/nav_person"
+            android:icon="@drawable/ic_person"
+            android:title="@string/person" />
+        <item
+            android:id="@+id/nav_address"
+            android:icon="@drawable/ic_map"
+            android:title="@string/mapa" />
+        <item
+            android:id="@+id/nav_product"
+            android:icon="@drawable/ic_product"
+            android:title="@string/product" />
+
+        <item
+            android:id="@+id/nav_tab"
+            android:icon="@drawable/ic_tab"
+            android:title="@string/tab" />
+    </group>
+
+
+
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/IngresoProductos" />
+            <item
+                android:id="@+id/crear_product"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/action_registerProduct" />
+        </menu>
+
+    </item>
+
+
+
+</menu>

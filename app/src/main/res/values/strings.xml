@@ -1,0 +1,75 @@
+<resources>
+
+
+    <string name="action_address">Direccion:</string>
+    <string name="action_phone">Telefono:</string>
+
+    <string name="action_user">Usuario:</string>
+    <string name="action_password">Password:</string>
+    <string name="action_name">Nombre:</string>
+    <string name="action_nameProduct">Nombre Producto:</string>
+    <string name="action_lastName">apellido:</string>
+    <string name="action_description">Descripcion:</string>
+    <string name="action_ingresar">Ingresar</string>
+    <string name="action_registrarse">Registrarce</string>
+    <string name="action_registrar">Registrar</string>
+    <string name="action_cancelar">Cancelar</string>
+    <string name="login">Login XD!</string>
+    <string name="action_repeat">Repetir password</string>
+    <string name="action_register_title">Registrate XD!</string>
+    <string name="action_register_Product">Registrate Producto XD!</string>
+    <string name="Modificas">Modificar XD!</string>
+    <string name="Modificass">Modificar</string>
+
+    <string name="hello">Hello World, CopyMain!</string>
+    <string name="app_name">NotePatt</string>
+    <string name="title_activity_main_principal">MainPrincipal</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="pedido">Hacer pedido</string>
+    <string name="person">lista de personas</string>
+    <string name="mapa">Direccion DeibiMotors</string>
+    <string name="product">Productos</string>
+    <string name="tab">Tab Cliente</string>
+
+
+    <string name="add_pedido">Añadir pedido</string>
+    <string name="help">Ayuda</string>
+    <string name="IngresoProductos">Ingresa productos</string>
+
+
+
+
+    <string name="Cod_product">Codigo de Producto</string>
+    <string name="Name_prodcut">Nombre de producto</string>
+    <string name="Marca_producto">Marca de Producto</string>
+    <string name="Cantidad_producto">Cantidad Prodcuto</string>
+    <string name="Categoria_prodcuto">Categoria</string>
+    <string name="Pecio_Unit">Precio Unitario</string>
+    <string name="logo_product">Logo Producto</string>
+    <string name="btnAgregar">Agregar</string>
+    <string name="btnListar">Ir a la lista</string>
+    <string name="btnImage">Escoge una imagen</string>
+
+    <string name="action_registerProduct">Registrar un producto</string>
+
+
+
+    <string name="title_activity_productos_listsqlite">ProductosListSQlite</string>
+    <string name="action_salir">Salir</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_contact">ClienteActivity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_product">ProductActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_main_regist">MainRegistActivity</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="action_atras">Atras</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main_regist_product">MainRegistProductActivity</string>
+    <string name="title_activity_hola">Hola</string>
+    <string name="title_activity_productos_sqlite">ProductosSQlite</string>
+</resources>
